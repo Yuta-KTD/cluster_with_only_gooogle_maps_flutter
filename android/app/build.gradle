@@ -35,7 +35,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        resValue "string", "GOOGLEMAP_KEY", "${dartDefines.GOOGLEMAP_ANDROID_KEY}"
+        resValue "string", "GOOGLEMAP_KEY", "${dartDefines.GOOGLEMAP_KEY}"
     }
 
     buildTypes {
